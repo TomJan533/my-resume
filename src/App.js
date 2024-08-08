@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import profilePhoto from './assets/CH_Paszport_xjw5ygdm_1440x1326.jpg';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="image-container">
+          <img src={profilePhoto} alt="Your Name" className="profile-photo" />
+          <div className="overlay"></div>
+        </div>
       </header>
+      <section className="content-section">
+        <div className="content">
+          <h1>Your Name</h1>
+          <p>Your Professional Title</p>
+          <p>Your Contact Information</p>
+          {/* Add more content here */}
+        </div>
+      </section>
     </div>
   );
 }

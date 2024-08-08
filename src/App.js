@@ -6,6 +6,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <nav className="navbar">
+          <ul className="nav-list">
+            <li className="nav-item">Home</li>
+            <li className="nav-item">About</li>
+            <li className="nav-item">Services</li>
+            <li className="nav-item">Portfolio</li>
+            <li className="nav-item">Contact</li>
+          </ul>
+        </nav>
         <div className="image-container">
           <img src={profilePhoto} alt="Your Name" className="profile-photo" />
           <div className="overlay"></div>

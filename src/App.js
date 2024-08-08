@@ -18,6 +18,11 @@ function App() {
         <div className="image-container">
           <img src={profilePhoto} alt="Your Name" className="profile-photo" />
           <div className="overlay"></div>
+          <div className="title-overlay">
+            <h1>Hello, I'm</h1>
+            <h1>Tomasz Jankiewicz</h1>
+            <p>and this is my rezume</p>
+          </div>
         </div>
       </header>
       <section className="content-section">

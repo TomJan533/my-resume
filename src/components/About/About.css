@@ -1,13 +1,32 @@
 .content-section {
-    background-color: rgb(42, 57, 84);
-    padding: 20px;
-    color: white;
-    min-height: 100vh; /* Ensure the section takes at least the full height of the viewport */
-  }
-  
-  .content {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
+  background-color: rgb(42, 57, 84);
+  padding: 20px;
+  color: white;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about-text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.about-list {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.about-list ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.about-list li {
+  margin-bottom: 10px;
+}

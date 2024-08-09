@@ -1,12 +1,29 @@
 .skills-section {
-    background-color: rgb(42, 57, 84);
-    padding: 40px 20px;
-    color: white;
+    background-color: rgb(42, 57, 84); /* Same background color */
+    padding: 20px; /* Same padding */
+    color: white; /* Same text color */
+  }
+  
+  .skills-header {
+    max-width: 800px; /* Same max width */
+    margin: 0 auto; /* Center the header */
+    text-align: center; /* Center the text */
+  }
+  
+  .skills-header h2 {
+    margin: 0;
+    font-size: 1.5rem; /* Adjust the font size to match the Contact title */
+  }
+  
+  .skills-header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem; /* Adjust the font size for the subtitle */
+    color: rgba(255, 255, 255, 0.8); /* Slightly lighter color for the subtitle */
   }
   
   .skills-container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 20px auto 0; /* Add some space above the skill groups */
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;

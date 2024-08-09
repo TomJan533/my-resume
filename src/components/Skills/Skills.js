@@ -5,6 +5,10 @@ import './Skills.css';
 const Skills = () => {
   return (
     <section id="skills" className="skills-section">
+      <div className="skills-header">
+        <h2>Skills</h2>
+        <p>Hands-on experience</p>
+      </div>
       <div className="skills-container">
         <SkillGroup
           title="Python"
@@ -49,11 +53,18 @@ const Skills = () => {
         />
         <SkillGroup
           title="Other"
-          skills={['PostgreSQL',
+          skills={[
+            'PostgreSQL',
             'MongoDB',
             'MSSQL',
             'GraphQL',
-            'Redis', 'Swagger', 'Postman', 'Git', 'Jmeter', 'Docker']}
+            'Redis',
+            'Swagger',
+            'Postman',
+            'Git',
+            'Jmeter',
+            'Docker',
+          ]}
         />
       </div>
     </section>

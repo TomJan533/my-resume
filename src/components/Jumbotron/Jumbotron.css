@@ -1,0 +1,19 @@
+.jumbotron {
+    background-color: rgba(42, 57, 84, 0.9); /* Dark background with slight transparency */
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px; /* Space between jumbotrons */
+    border-radius: 10px; /* Rounded corners */
+    text-align: left;
+  }
+  
+  .jumbotron h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+  
+  .jumbotron p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  

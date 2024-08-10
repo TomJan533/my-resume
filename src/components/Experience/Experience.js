@@ -6,6 +6,7 @@ const Experience = () => {
   return (
     <section id="experience" className="experience-section">
       <div className="timeline">
+      <h1>Experience</h1>
         <ExpSection
           year="2023"
           title="Backend Developer"

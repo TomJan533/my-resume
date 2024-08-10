@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePhoto from '../../assets/CH_Paszport_xjw5ygdm_1440x1326.jpg';
+import profilePhoto from '../../assets/CH_Paszport_xjw5ygdm_1440x1326_blue.jpg';
 import './Header.css';
 
 const Header = () => {

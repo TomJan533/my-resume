@@ -6,16 +6,22 @@ const Contact = () => {
   return (
     <section id="contact" className="content-section">
       <div className="content">
-        <h1>Contact</h1>
-        <div className="contact-image-container">
-          <img src={profilePhoto} alt="Your Name" className="contact-image" />
+        <div className="contact-header">
+          <h1>Contact</h1>
+          <p>Let's talk!</p>
         </div>
-        <div className="contact-info">
-          <p>Email: your.email@example.com</p>
-          <p>Phone: +123 456 789</p>
-          <p>Location: City, Country</p>
-          <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">your-profile</a></p>
-          <p>GitHub: <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">your-username</a></p>
+        <div className="content-container">
+          <div className="column">
+            <img src={profilePhoto} alt="Profile" className="profile-image" />
+          </div>
+          <div className="column">
+            <div className="info">
+              <p><strong>Video: </strong><a href="https://drive.google.com/file/d/1gOgf6SRc7_5PSdHyiexTEoF3HYP-iwPj/view" target="_blank" rel="noopener noreferrer">Link</a></p>
+              <p><strong>LinkedIn: </strong> <a href="https://www.linkedin.com/in/tomasz-jankiewicz-developer/" target="_blank" rel="noopener noreferrer">tomasz-jankiewicz-developer</a></p>
+              <p><strong>GitHub: </strong> <a href="https://github.com/TomJan533" target="_blank" rel="noopener noreferrer">TomJan533</a></p>
+              <p><strong>Location: </strong>Warsaw, Poland (CEST)</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -1,45 +1,64 @@
 .content-section {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(42, 57, 84);
-  padding: 20px;
-  color: white;
 }
 
 .content {
-  /* max-width: 800px; */
-  margin: 0 auto;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.contact-header {
+  margin-bottom: 20px;
+  text-align: center;
+  color: white; /* Ensures the text is visible against the dark background */
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.profile-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.column p {
+  margin: 0;
+  padding: 10px;
+  background-color: rgb(42, 57, 84);
+  color: white; /* Ensures the text is visible against the dark background */
+  text-align: left; /* Ensures text is aligned to the left */
+}
+
+.info p {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: rgb(42, 57, 84);
+  color: white; /* Ensures the text is visible against the dark background */
   text-align: left;
 }
 
-.contact-image-container {
-  display: flex;
-  justify-content: center;
-  margin: 10px 0;
-  overflow: hidden; /* Ensures the overflow of the image is hidden */
-  height: 50vh; /* Total height after cropping top and bottom 20% */
-}
-
-.contact-image {
-  width: 100%; /* Ensure the image fills the container width */
-  height: auto;
-  object-fit: cover; /* Cover the container area without distorting the image */
-}
-/* object-position: center -20%; Adjust the position to cut off the top and bottom 20% */
-
-.contact-info {
-  margin-top: 20px;
-  font-size: 1.2rem;
-  line-height: 1.5;
-}
-
-.contact-info p {
-  margin: 10px 0;
-}
-
-.contact-info a {
-  color: rgba(255, 255, 255, 0.8); /* Slightly lighter link color */
+.info a {
+  color: #0073b1; /* LinkedIn blue color */
   text-decoration: none;
 }
 
-.contact-info a:hover {
+.info a:hover {
   text-decoration: underline;
+}
+
+.info a:visited {
+  color: #0073b1; /* Ensures color stays the same after clicking */
 }

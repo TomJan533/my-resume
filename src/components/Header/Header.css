@@ -42,3 +42,15 @@
   margin: 0;
   font-size: 1.2rem;
 }
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 47%;
+  background: linear-gradient(to top, rgb(42, 57, 84) 0%, rgba(42, 57, 84, 0) 100%);
+  z-index: 2; /* Place above the profile photo (z-index: 1) but below or on par with text */
+  pointer-events: none; /* Let clicks pass through if needed */
+}
+
